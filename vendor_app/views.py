@@ -10,12 +10,7 @@ from django.db.models import Count, Avg
 # Create your views here.
 
 
-class CreateUser(APIView):
-    permission_classes = (permissions.AllowAny,)
-    authentication_classes = ()
-    def post(self,request,format='json'):
 
-        pass
 
 
 class VendorView(APIView):
